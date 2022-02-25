@@ -1,0 +1,119 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#header-fixed{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background: #F5B41D;
+    border-bottom: 10px solid  #2B27E8;
+}
+
+
+#navigation-menu ul{
+    text-align: center;
+    line-height: 75px;
+}
+
+
+#navigation-menu li{
+    display: inline;
+}
+
+#navigation-menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)  ;
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+#navigation-menu a:hover{
+    color: #FF1F38;
+}
+
+#main-container{
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #1FFF9F;
+}
+
+#main-container h1{
+    font-size: 40px;
+    color: #FF1F38;
+}
+
+
+#image-container{
+    display: block;
+    width: 70%;
+    margin:0px auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#image-container p{
+    display: block;
+    margin-top: 25px;
+}
+
+#contact{
+   
+    padding-top: 100px;
+    height:250px;
+}
+
+#contact h2{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FF1F38 ;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.inputs-container{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 120px;
+    padding: 20px;
+    border: 3px solid #F5B41D;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 1px 0px 3px 3px #F5B41D;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 220px;
+    height: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input[type="submit"]{
+    padding: 5px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    background: rgb(60, 55, 55) ;
+    line-height: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid #FF1F38 ;
+}
+
